@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'Eng.housa95@gmail.com';
+  //$receiving_email_address = 'Eng.housa95@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -29,7 +29,7 @@
     'host' => 'github.com',
     'username' => 'MohammedHousa',
     'password' => 'SAMImohd5m',
-    'port' => '587'
+    'port' => '25'
   );
   
 
